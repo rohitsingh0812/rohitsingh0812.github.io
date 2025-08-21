@@ -1,6 +1,6 @@
 <html>
 <head>
-<meta http-equiv="refresh" content="1; url=https://www.secondcity.com/shows/chicago/love-is-improvised-chi" />
+  <title>Love Is Improvised</title>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-15MVBV4VT2"></script>
 <script>
@@ -9,6 +9,15 @@
   gtag('js', new Date());
 
   gtag('config', 'G-15MVBV4VT2');
+
+  function redirectPage() {
+      // You can use a window.location.replace or window.location.href
+      window.location.replace("https://www.secondcity.com/shows/chicago/love-is-improvised-chi");
+    }
+
+  // Set a timeout to delay the redirect. 
+  // 150 milliseconds is a commonly suggested value to ensure tracking completes.
+  setTimeout(redirectPage, 150);
 </script>
 </head>
 
